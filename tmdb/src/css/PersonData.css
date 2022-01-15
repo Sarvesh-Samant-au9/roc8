@@ -1,0 +1,25 @@
+.card-image img {
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 10px #d5d2d29c;
+}
+
+.person-data {
+  box-shadow: 0px 0px 10px 10px #d5d2d29c;
+  margin: 3vw auto;
+  width: 80vw;
+  padding: 3vw;
+}
+
+@media screen and (max-width: 900px) {
+  .card-image img {
+    margin-top: 30px;
+  }
+  .person-text {
+    margin-top: 30px;
+    align-items: center;
+  }
+  .person-text h1 {
+    font-size: 25px;
+  }
+}

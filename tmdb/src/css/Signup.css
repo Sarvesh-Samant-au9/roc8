@@ -1,0 +1,57 @@
+.signup-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.signupConatiner {
+  display: flex;
+  flex-flow: row;
+  width: 50%;
+}
+.signin-form {
+  padding: 25px;
+  text-align: right;
+  margin-top: 10%;
+}
+.signup-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20vw;
+  box-shadow: 0px 0px 5px 3px #0000002b;
+  border-radius: 10px;
+}
+.signup-form .card {
+  border: none !important;
+}
+.signup-inner .card-header {
+  border-radius: 10px 10px 0 0;
+  background-color: var(--primary);
+  color: var(--secondary_text);
+  text-align: center;
+}
+.signup-form {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 30px 60px var(--primary);
+}
+@media only screen and (max-width: 800px) {
+  .signupConatiner {
+    flex-direction: column;
+    height: 80vh;
+  }
+  .signup-inner {
+    width: 50vw;
+  }
+  .signin-form {
+    margin-top: 60px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .signin-form {
+    padding: 10px;
+    margin-top: 40px;
+  }
+}

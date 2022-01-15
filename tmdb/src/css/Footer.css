@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.Footer {
+  overflow: hidden;
+  padding: 40px 0;
+  margin-top: 50px;
+  background-color: var(--primary);
+  color: var(--secondary_text);
+}
+
+.inner-footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.inner-footer .social-icon {
+  width: 100%;
+}
+
+.logoItem img {
+  margin-top: 20px;
+}
+
+.Footer a {
+  color: var(--secondary_text);
+  text-decoration: none;
+}
+.social_icon_show_on_mobile {
+  margin-top: 30px;
+  text-align: center;
+  display: none;
+}
+.social_icon_hide_on_mobile {
+  display: block;
+}
+
+@media screen and (max-width: 770px) {
+  .social_icon_hide_on_mobile {
+    display: none;
+  }
+  .social_icon_show_on_mobile {
+    display: block;
+  }
+  .logoItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .logoItem img {
+    margin-top: 0;
+  }
+  .inner-footer {
+    width: 80%;
+  }
+  .logoItem {
+    width: 100%;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .inner-footer {
+    width: 90%;
+  }
+}

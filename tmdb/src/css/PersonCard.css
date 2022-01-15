@@ -1,0 +1,10 @@
+.person-card-shadow {
+  box-shadow: 0px 0px 10px 4px #4341412e;
+  border-radius: 10px;
+}
+.person-other-data {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
